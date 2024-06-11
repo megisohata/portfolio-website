@@ -1,0 +1,7 @@
+@import url('../../constants.css');
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    background: rgba(var(--light-orange), 0.6);
+}

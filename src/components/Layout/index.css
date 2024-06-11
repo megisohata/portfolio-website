@@ -1,0 +1,31 @@
+@import url('../../constants.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+}
+
+.content {
+    overflow-y: auto;
+    background: rgba(var(--light-orange), 0.3);
+    flex-grow: 1;
+}

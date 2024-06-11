@@ -2,7 +2,7 @@ import './index.css'
 
 const Portfolio = () => {
     return (
-        <div></div>
+        <div>Portfolio</div>
     )
 }
 

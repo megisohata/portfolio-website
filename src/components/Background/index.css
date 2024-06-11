@@ -1,10 +1,5 @@
 @import url('../../constants.css');
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --circle-size: 80%;
     --blending: hard-light;
@@ -104,8 +99,8 @@ body {
 }
 
 .blob-bg {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: relative;
     overflow: hidden;
     background: linear-gradient(135deg, rgb(var(--light-pink)), rgb(var(--light-purple)));
