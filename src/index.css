@@ -5,12 +5,19 @@
 }
 
 @font-face {
+  font-family: 'Gluten';
+  src: url('./assets/Gluten/static/Gluten-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
   font-family: 'Poppins';
   src: url('./assets/Poppins/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
 :root {
+  --white: 255, 255, 255;
   --light-orange: 255, 242, 224;
   --light-pink: 249, 157, 188;
   --light-purple: 206, 169, 236;
@@ -27,6 +34,8 @@ body {
   font-weight: 400;
   color: rgb(var(--dark-purple));
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3 {
@@ -35,9 +44,26 @@ h1, h2, h3 {
   color: rgb(var(--dark-purple));
 }
 
+h4, h5, h6, button {
+  font-family: 'Poppins';
+  margin: 0;
+  color: rgb(var(--dark-purple));
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 90px;
+}
+
 h3 {
   font-weight: 700;
   font-size: 25px;
+}
+
+h4 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
 }
 
 a {

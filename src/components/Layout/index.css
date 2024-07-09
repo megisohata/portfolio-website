@@ -25,5 +25,5 @@ body {
 .content {
     overflow-y: auto;
     background: rgba(var(--light-orange), 0.3);
-    flex-grow: 1;
+    width: calc(100vw - 200px);
 }
