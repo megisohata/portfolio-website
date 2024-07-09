@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fca4dca.css",
-    "main.js": "/static/js/main.00a81998.js",
-    "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
-    "static/media/profile.png": "/static/media/profile.bcd2221b07ee8d60a7a7.png",
-    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/Gluten-ExtraBold.ttf": "/static/media/Gluten-ExtraBold.2d17ad615a31858669eb.ttf",
-    "static/media/Gluten-Bold.ttf": "/static/media/Gluten-Bold.a197cde31bb4f61a1981.ttf",
-    "static/media/logo.png": "/static/media/logo.244f0543d36948115d01.png",
-    "static/media/github.svg": "/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
-    "index.html": "/index.html",
-    "static/media/linkedin.svg": "/static/media/linkedin.55fb388c4c9df6986ca32fe64a60414a.svg",
-    "static/media/star.svg": "/static/media/star.31351d2b6c50ca0ca29e5fcb71865159.svg",
-    "static/media/briefcase.svg": "/static/media/briefcase.ac7940c57b7a19b0c0ab0978576c5cde.svg",
-    "static/media/file-directory.svg": "/static/media/file-directory.215adb8beb0aa63e94c499a1111fc3c7.svg",
-    "static/media/person.svg": "/static/media/person.5de2956a962293773cc41c5b5302e358.svg",
-    "main.2fca4dca.css.map": "/static/css/main.2fca4dca.css.map",
-    "main.00a81998.js.map": "/static/js/main.00a81998.js.map",
-    "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
+    "main.css": "/portfolio-website/static/css/main.2ac7ad3c.css",
+    "main.js": "/portfolio-website/static/js/main.cd7adcb3.js",
+    "static/js/453.aac68abc.chunk.js": "/portfolio-website/static/js/453.aac68abc.chunk.js",
+    "static/media/profile.png": "/portfolio-website/static/media/profile.bcd2221b07ee8d60a7a7.png",
+    "static/media/Poppins-Regular.ttf": "/portfolio-website/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Gluten-ExtraBold.ttf": "/portfolio-website/static/media/Gluten-ExtraBold.2d17ad615a31858669eb.ttf",
+    "static/media/Gluten-Bold.ttf": "/portfolio-website/static/media/Gluten-Bold.a197cde31bb4f61a1981.ttf",
+    "static/media/logo.png": "/portfolio-website/static/media/logo.244f0543d36948115d01.png",
+    "static/media/github.svg": "/portfolio-website/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
+    "index.html": "/portfolio-website/index.html",
+    "static/media/linkedin.svg": "/portfolio-website/static/media/linkedin.55fb388c4c9df6986ca32fe64a60414a.svg",
+    "static/media/star.svg": "/portfolio-website/static/media/star.31351d2b6c50ca0ca29e5fcb71865159.svg",
+    "static/media/briefcase.svg": "/portfolio-website/static/media/briefcase.ac7940c57b7a19b0c0ab0978576c5cde.svg",
+    "static/media/file-directory.svg": "/portfolio-website/static/media/file-directory.215adb8beb0aa63e94c499a1111fc3c7.svg",
+    "static/media/person.svg": "/portfolio-website/static/media/person.5de2956a962293773cc41c5b5302e358.svg",
+    "main.2ac7ad3c.css.map": "/portfolio-website/static/css/main.2ac7ad3c.css.map",
+    "main.cd7adcb3.js.map": "/portfolio-website/static/js/main.cd7adcb3.js.map",
+    "453.aac68abc.chunk.js.map": "/portfolio-website/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fca4dca.css",
-    "static/js/main.00a81998.js"
+    "static/css/main.2ac7ad3c.css",
+    "static/js/main.cd7adcb3.js"
   ]
 }
