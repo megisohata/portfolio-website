@@ -19,7 +19,7 @@ const Sidebar = () => {
                 </Link>
             </div>
             <nav>
-                <NavLink to='/'>
+                <NavLink className='home-link' to='/'>
                     <img src={Star} />
                     Home
                 </NavLink>
