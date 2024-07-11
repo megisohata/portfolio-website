@@ -54,7 +54,7 @@
         img {
             width: 100px;
             height: auto;
-            filter: var(--filter);
+            filter: var(--dp-filter);
         }
     
         img:hover {
@@ -97,7 +97,7 @@ nav {
         margin-right: 6px;
         vertical-align: middle;
         color: rgb(var(--dark-purple));
-        filter: var(--filter);
+        filter: var(--dp-filter);
     }
 }
 
@@ -118,7 +118,7 @@ nav {
             width: auto;
             height: 30px;
             vertical-align: middle;
-            filter: var(--filter);
+            filter: var(--dp-filter);
         }
     }
 
