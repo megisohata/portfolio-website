@@ -115,7 +115,6 @@ nav {
         padding: 3px;
 
         img {
-            width: auto;
             height: 30px;
             filter: var(--dp-filter);
         }
@@ -170,6 +169,34 @@ nav {
     
         a {
             padding: 0;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .logo {
+        padding: 10px;
+        
+        .logo-img {
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    nav {
+        img {
+            display: none;
+        }
+
+        a {
+            font-size: 16px;
+        }
+    }
+
+    .socials {
+        img {
+            width: 24px;
         }
     }
 }
