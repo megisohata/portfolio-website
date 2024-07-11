@@ -117,7 +117,6 @@ nav {
         img {
             width: auto;
             height: 30px;
-            vertical-align: middle;
             filter: var(--dp-filter);
         }
     }
@@ -125,6 +124,52 @@ nav {
     a:hover {
         img {
             animation: socials-animation 1s ease-in-out 1;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        display: flex;
+    }
+    
+    .logo {
+        padding: 5px;
+        
+        .logo-img {
+            img {
+                width: 40px;
+            }
+    
+            h3 {
+                display: none;
+            }
+        }
+    }
+    
+    nav {
+        display: flex;
+        top: 13px;
+    
+        a {
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        img {
+            margin-right: 4px;
+        }
+    }
+    
+    .socials {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        top: 10px;
+        padding-right: 5px;
+    
+        a {
+            padding: 0;
         }
     }
 }

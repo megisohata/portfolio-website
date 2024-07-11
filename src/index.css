@@ -54,6 +54,21 @@
   --white-filter: invert(91%) sepia(100%) saturate(31%) hue-rotate(250deg) brightness(108%) contrast(100%);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: rgb(var(--light-orange), 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--dark-purple));
+  border-radius: 5px;
+}
+
 body {
   font-family: 'Poppins';
   font-weight: 400;

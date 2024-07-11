@@ -27,3 +27,21 @@ body {
     background: rgba(var(--light-orange), 0.3);
     width: calc(100vw - 200px);
 }
+
+@media (max-width: 1000px) {
+    .page {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100vw;
+        height: 50px;
+    }
+    
+    .content {
+        overflow-y: auto;
+        background: rgba(var(--light-orange), 0.3);
+        height: calc(100vh - 50px);
+        width: 100vw;
+    }
+}
