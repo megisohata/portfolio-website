@@ -10,38 +10,38 @@ body {
     position: absolute;
 }
 
-.page {
+.webpage {
     width: 100vw;
     height: 100vh;
     position: absolute;
     display: flex;
 }
 
-.sidebar {
-    width: 200px;
+.navigation-bar {
+    width: 13rem;
     height: 100vh;
 }
 
 .content {
     overflow-y: auto;
     background: rgba(var(--light-orange), 0.3);
-    width: calc(100vw - 200px);
+    width: calc(100vw - 13rem);
 }
 
-@media (max-width: 1000px) {
-    .page {
+@media (max-width: 64rem) {
+    .webpage {
         display: block;
     }
 
-    .sidebar {
+    .navigation-bar {
         width: 100vw;
-        height: 50px;
+        height: 3rem;
     }
     
     .content {
         overflow-y: auto;
         background: rgba(var(--light-orange), 0.3);
-        height: calc(100vh - 50px);
+        height: calc(100vh - 3rem);
         width: 100vw;
     }
 }

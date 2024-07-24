@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: 'Gluten';
   src: url('./assets/Gluten/static/Gluten-Medium.ttf') format('truetype');
@@ -18,14 +19,14 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/Poppins/Poppins-Regular.ttf') format('truetype');
-  font-weight: 400;
+  src: url('./assets/Poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('./assets/Poppins/Poppins-Light.ttf') format('truetype');
-  font-weight: 300;
+  src: url('./assets/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
 }
 
 @font-face {
@@ -41,6 +42,7 @@
 }
 
 :root {
+  /* colors */
   --white: 255, 255, 255;
   --light-orange: 255, 242, 224;
   --light-pink: 249, 157, 188;
@@ -50,82 +52,76 @@
   --purple: 114, 56, 203;
   --dark-purple: 52, 53, 117;
   --darker-purple: 9, 4, 70;
+  /* underline style */
+  --underline: rgb(var(--white)) underline wavy 2px;
+  /* filters */
   --dp-filter: invert(19%) sepia(9%) saturate(7352%) hue-rotate(210deg) brightness(97%) contrast(88%);
   --white-filter: invert(91%) sepia(100%) saturate(31%) hue-rotate(250deg) brightness(108%) contrast(100%);
+  /* root size */
+  font-size: 16px;
+  /* scroll bar */
+  scrollbar-color: rgb(var(--dark-purple)) transparent;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 5px;
-  background: rgb(var(--light-orange), 0.6);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(var(--dark-purple));
-  border-radius: 5px;
-}
-
+/* basic styling */
 body {
   font-family: 'Poppins';
   font-weight: 400;
   color: rgb(var(--dark-purple));
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 h1, h2, h3 {
   font-family: 'Gluten';
   margin: 0;
-  color: rgb(var(--dark-purple));
 }
 
 h4, h5, h6, p, button {
   font-family: 'Poppins';
   margin: 0;
-  color: rgb(var(--dark-purple));
 }
 
 h1 {
+  font-size: 5rem;
   font-weight: 800;
-  font-size: 90px;
 }
 
 h2 {
+  font-size: 2.5rem;
   font-weight: 500;
-  font-size: 40px;
 }
 
 h3 {
+  font-size: 1.5rem;
   font-weight: 700;
-  font-size: 25px;
 }
 
 h4 {
+  font-size: 1.25rem;
   font-weight: 400;
   font-style: italic;
-  font-size: 20px;
 }
 
 h5 {
+  font-size: 1.25rem;
   font-weight: 700;
-  font-size: 20px;
 }
 
 h6 {
+  font-size: 1rem;
   font-weight: 600;
-  font-size: 15px;
+  font-style: italic;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+button {
+  font-size: 1rem;
+  color: rgb(var(--dark-purple));
 }
 
 a {
   color: rgb(var(--dark-purple));
-}
-
-p {
-  font-weight: 300;
-  font-size: 15px;
 }

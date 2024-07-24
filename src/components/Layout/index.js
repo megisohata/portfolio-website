@@ -9,8 +9,8 @@ const Layout = () => {
             <div className='background'>
                 <Background />
             </div>
-            <div className='page'>
-                <div className='sidebar'>
+            <div className='webpage'>
+                <div className='navigation-bar'>
                     <Sidebar />
                 </div>
                 <div className='content'>
