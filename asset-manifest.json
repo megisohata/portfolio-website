@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.6a24186d.css",
-    "main.js": "/portfolio-website/static/js/main.77f6c628.js",
+    "main.css": "/portfolio-website/static/css/main.a67e0da8.css",
+    "main.js": "/portfolio-website/static/js/main.af0417f9.js",
     "static/js/453.aac68abc.chunk.js": "/portfolio-website/static/js/453.aac68abc.chunk.js",
     "static/media/profile.png": "/portfolio-website/static/media/profile.bcd2221b07ee8d60a7a7.png",
     "static/media/Poppins-Light.ttf": "/portfolio-website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -19,12 +19,12 @@
     "static/media/briefcase.svg": "/portfolio-website/static/media/briefcase.ac7940c57b7a19b0c0ab0978576c5cde.svg",
     "static/media/file-directory.svg": "/portfolio-website/static/media/file-directory.215adb8beb0aa63e94c499a1111fc3c7.svg",
     "static/media/person.svg": "/portfolio-website/static/media/person.5de2956a962293773cc41c5b5302e358.svg",
-    "main.6a24186d.css.map": "/portfolio-website/static/css/main.6a24186d.css.map",
-    "main.77f6c628.js.map": "/portfolio-website/static/js/main.77f6c628.js.map",
+    "main.a67e0da8.css.map": "/portfolio-website/static/css/main.a67e0da8.css.map",
+    "main.af0417f9.js.map": "/portfolio-website/static/js/main.af0417f9.js.map",
     "453.aac68abc.chunk.js.map": "/portfolio-website/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a24186d.css",
-    "static/js/main.77f6c628.js"
+    "static/css/main.a67e0da8.css",
+    "static/js/main.af0417f9.js"
   ]
 }
