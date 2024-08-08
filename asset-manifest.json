@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.a67e0da8.css",
-    "main.js": "/portfolio-website/static/js/main.af0417f9.js",
+    "main.css": "/portfolio-website/static/css/main.31d61ee8.css",
+    "main.js": "/portfolio-website/static/js/main.02844495.js",
     "static/js/453.aac68abc.chunk.js": "/portfolio-website/static/js/453.aac68abc.chunk.js",
-    "static/media/profile.png": "/portfolio-website/static/media/profile.bcd2221b07ee8d60a7a7.png",
     "static/media/Poppins-Light.ttf": "/portfolio-website/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/portfolio-website/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-SemiBold.ttf": "/portfolio-website/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
@@ -11,6 +10,7 @@
     "static/media/Gluten-ExtraBold.ttf": "/portfolio-website/static/media/Gluten-ExtraBold.2d17ad615a31858669eb.ttf",
     "static/media/Gluten-Bold.ttf": "/portfolio-website/static/media/Gluten-Bold.a197cde31bb4f61a1981.ttf",
     "static/media/Gluten-Medium.ttf": "/portfolio-website/static/media/Gluten-Medium.5d65ceaeb248fb26e35f.ttf",
+    "static/media/profile.png": "/portfolio-website/static/media/profile.b9ce72f66b30342213bd.png",
     "static/media/logo.png": "/portfolio-website/static/media/logo.244f0543d36948115d01.png",
     "static/media/github.svg": "/portfolio-website/static/media/github.e7e2bc8e3b94958f09a23ee8a5aaae7a.svg",
     "index.html": "/portfolio-website/index.html",
@@ -19,12 +19,12 @@
     "static/media/briefcase.svg": "/portfolio-website/static/media/briefcase.ac7940c57b7a19b0c0ab0978576c5cde.svg",
     "static/media/file-directory.svg": "/portfolio-website/static/media/file-directory.215adb8beb0aa63e94c499a1111fc3c7.svg",
     "static/media/person.svg": "/portfolio-website/static/media/person.5de2956a962293773cc41c5b5302e358.svg",
-    "main.a67e0da8.css.map": "/portfolio-website/static/css/main.a67e0da8.css.map",
-    "main.af0417f9.js.map": "/portfolio-website/static/js/main.af0417f9.js.map",
+    "main.31d61ee8.css.map": "/portfolio-website/static/css/main.31d61ee8.css.map",
+    "main.02844495.js.map": "/portfolio-website/static/js/main.02844495.js.map",
     "453.aac68abc.chunk.js.map": "/portfolio-website/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a67e0da8.css",
-    "static/js/main.af0417f9.js"
+    "static/css/main.31d61ee8.css",
+    "static/js/main.02844495.js"
   ]
 }
